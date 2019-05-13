@@ -55,7 +55,7 @@ def add_s(arr)
     if element == arr[1]
       element
     else
-    element + "s"
+    element << "s"
   end
 end
 end
