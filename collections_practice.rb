@@ -24,12 +24,13 @@ end
 
 #review
 def kesha_maker(array)
-  array.collect do |element|
+  kesha=[]
+  array.each do |element|
       element[2] = "$"
-      element
+      kesha.push(element)
     end
 
-
+return kesha
 end
 
 
